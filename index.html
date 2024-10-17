@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokémon Preferiti</title>
+  </head>
+  <body>
+    <!-- Custom container -->
+    <div class="container">
+      <!-- Form per cercare un Pokémon -->
+      <div>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Inserisci il nome di un Pokémon"
+        />
+        <button id="searchButton">Cerca il Pokémon</button>
+      </div>
+
+      <!-- Container per la stampa dei pokemon -->
+      <div id="resultContainer"></div>
+
+      <h2>I tuoi Pokémon preferiti sono:</h2>
+      <ul id="favoritesList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
